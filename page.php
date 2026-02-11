@@ -8,7 +8,7 @@
                      while(have_posts()): the_post();
                      get_template_part('parts/content','page');
 
-                     if(comment_open() || get_comments_number()){
+                     if(comments_open() || get_comments_number()){
                         comments_template();
                      }
 

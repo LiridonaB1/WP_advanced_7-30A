@@ -20,7 +20,7 @@
 
          <?php
 
-        if(comment_open() || get_comments_number()){
+        if(comments_open() || get_comments_number()){
             comments_template();
         }
         endwhile;
